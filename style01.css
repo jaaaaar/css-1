@@ -23,12 +23,18 @@ body{
     height: 120px;
 }
 
+.header h1{
+    font-weight: 400;
+    line-height: 120px;
+    padding-left: 40px;
+}
 .nav{
     background-color: #000;
     height: 50px;
 }
 
 .nav a{
+    text-decoration: none;
     color: #fff;
     line-height: none;
 }
@@ -58,18 +64,17 @@ body{
 .content ul{
     padding-left: 60px;
 }
-/* footer */
 
-.header h1{
+.content h1, .content h2{
     font-weight: 400;
-    line-height: 120px;
-    padding-left: 40px;
+    margin: 10px 0;
 }
+
 p{
     margin: 10px 0;
 }
 
-
+/* footer */
 .footer {
     padding: 20px 40px;
     background-color: #000;
